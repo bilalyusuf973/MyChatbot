@@ -7,7 +7,7 @@ router.post('/',
 
     try{
         const data = req.body
-        console.log(data);
+        console.log('hello');
     }
     catch(error){
         console.error(error.message);
